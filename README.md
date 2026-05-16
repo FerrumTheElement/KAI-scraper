@@ -44,3 +44,12 @@ Item[6] = Name of Train + Train Number
 Item[7] = Type of train (Premium, New Generation, Panoramic)
 
 The while True loop is responsible for the output and formatting of the categories given in the find() function. when typed: “>> or <<” in the interface it would either add or decrease the date by 1 in order to check for each day.
+
+#Usage
+usage: main.py [-h] -co CO -cd CD [-d D] [-t T] [-c C] [-mp MP]
+-co - City of Origin Format: Code or Name of City (Code is more reliable)
+-cd - City of Destination
+-d - Date Format[YYYY:MM:DD]
+-t - Time 24-hour Format
+-mp - Maximum Price
+
